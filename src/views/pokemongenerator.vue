@@ -1,4 +1,9 @@
 <template>
+  <div class= 'top'>
+    
+    <h1>Here's a random pokemon</h1>
+  
+  
   <div class="detail">
     <div class="detail-view" v-if="show">
       <div class="image">
@@ -52,6 +57,7 @@
       <button @click="fetchData">Reload</button>
     </div>
   </div>
+  </div>
 </template>
 
 <script>
@@ -94,3 +100,18 @@ export default {
   },
 };
 </script>
+
+<style module>
+h1 {
+  
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 3.5em;
+  letter-spacing: -2px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+}
+
+
+</style>
+
+

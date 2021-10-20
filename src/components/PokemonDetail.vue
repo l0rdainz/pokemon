@@ -42,7 +42,7 @@
       </div>
       <h2 v-else>Pokemon not found</h2>
 
-      <button class="close" @click="closeDetail">New Search</button>
+      <button @click="closeDetail">New Search</button>
     </div>
   </div>
 </template>
